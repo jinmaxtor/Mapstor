@@ -1,7 +1,7 @@
 ﻿using Mapstor.Attributes;
-using Mapstor.Comparers;
-using Mapstor.Models;
-using Mapstor.Templates;
+using Mapstor.Generator.Comparers;
+using Mapstor.Generator.Models;
+using Mapstor.Generator.Templates;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
@@ -9,7 +9,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Text;
 
-namespace Mapstor.Generators;
+namespace Mapstor.Generator.Generators;
 
 [Generator]
 public class MappingGenerator : IIncrementalGenerator

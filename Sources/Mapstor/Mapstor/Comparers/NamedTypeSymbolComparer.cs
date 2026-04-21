@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis;
 
-namespace Mapstor.Comparers;
+namespace Mapstor.Generator.Comparers;
 
 internal class NamedTypeSymbolComparer : IEqualityComparer<INamedTypeSymbol>
 {

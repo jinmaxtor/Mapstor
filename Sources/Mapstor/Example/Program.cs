@@ -13,8 +13,8 @@ var usuario = new User
     FechaNacimiento = new DateOnly(1995, 9, 6)
 };
 
-var usuarioDTO = usuario.MapTo<UserDTO>();
-var adminDTO = usuario.MapTo<AdminDTO>();
+//var usuarioDTO = usuario.MapTo<UserDTO>();
+//var adminDTO = usuario.MapTo<AdminDTO>();
 
-Console.WriteLine(usuarioDTO);
-Console.WriteLine(adminDTO);
+//Console.WriteLine(usuarioDTO);
+//Console.WriteLine(adminDTO);

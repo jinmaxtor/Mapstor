@@ -10,7 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Mapstor\Mapstor.csproj" OutputItemType="Analyzer" />
+    <ProjectReference Include="..\Mapstor\Mapstor.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\Attributes\Attributes.csproj" OutputItemType="Analyzer" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis;
 
-namespace Mapstor.Templates;
+namespace Mapstor.Generator.Templates;
 
 internal class MappingTemplate
 {

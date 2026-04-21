@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis;
 
-namespace Mapstor.Models;
+namespace Mapstor.Generator.Models;
 
 public sealed class MappingInfo(INamedTypeSymbol Source, INamedTypeSymbol Target)
 {
