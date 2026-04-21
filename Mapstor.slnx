@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Sources/" />
+  <Folder Name="/Sources/Mapstor/">
+    <Project Path="Sources/Mapstor/Example/Example.csproj" Id="fd3c0e3a-27c1-4415-9d67-e10bdc093e8a" />
+    <Project Path="Sources/Mapstor/Mapstor/Mapstor.csproj" Id="4ca33a52-4e38-4b10-9778-e7f5858f3534" />
+  </Folder>
+  <Folder Name="/Sources/Shared/" />
+</Solution>
