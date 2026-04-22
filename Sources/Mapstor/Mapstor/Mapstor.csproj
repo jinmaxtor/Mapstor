@@ -5,21 +5,23 @@
     <LangVersion>latest</LangVersion>
     <IsRoslynComponent>true</IsRoslynComponent>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <OutputItemType>Analyzer</OutputItemType>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>Mapstor</Title>
+    <Authors>Yimmy Quispe Yujra</Authors>
+    <Company>Maxtor Group</Company>
     <Description>
       High‑performance object mapping for .NET powered by Source Generators.
       Generates compile‑time mapping code with zero reflection, zero dependencies, and instant execution. Fast, safe, and ideal for modern .NET applications.
     </Description>
-    <Company>Maxtor Group</Company>
-    <Authors>Yimmy Quispe Yujra</Authors>
     <Version>1.0.6</Version>
-    <Title>Mapstor</Title>
     <PackageProjectUrl>https://github.com/jinmaxtor/Mapstor</PackageProjectUrl>
     <RepositoryUrl>https://github.com/jinmaxtor/Mapstor</RepositoryUrl>
-    <OutputItemType>Analyzer</OutputItemType>
-    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageTags>mapper;performance;objectmapper;sourcegenerator</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
